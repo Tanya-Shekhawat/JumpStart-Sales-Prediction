@@ -42,4 +42,4 @@ def result():
     return render_template("predict.html", pred='Sales for the item is {}'.format(Y_pred))
 
 if __name__ == "__main__":
-    app.run(debug=True, port=9757)
+    app.run(debug=True, port=9750)
