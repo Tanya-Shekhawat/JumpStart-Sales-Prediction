@@ -42,4 +42,5 @@ def result():
     return render_template("predict.html", pred='Sales for the item is {}'.format(Y_pred))
 
 if __name__ == "__main__":
-    app.run(debug=False, port=9757)
+    socketio.run(app)
+python3 __init__.py
